@@ -18,6 +18,6 @@ npm run serve
 ```
 
 > web终端
-> ```
-> npm run serve
-> ```
+```
+npm run serve
+```
