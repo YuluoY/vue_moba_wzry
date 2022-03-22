@@ -1,0 +1,71 @@
+// colors
+$colors: (
+	"primary": #db9e3f,
+	"white": #fff,
+	"light": #f9f9f9,
+	"black": #000,
+	"dark-1": #343440,
+	"dark": #222,
+	"grey": #999,
+	"grey-1": #666,
+	"info": #4b67af,
+	"light-1": #d4d9de,
+	"blue": #4394e4,
+	"danger": #e84a33,
+);
+$border-color: map-get($colors, "light-1");
+$border-skill-color: map-get($colors, "primary");
+// font size
+$base-font-size: 1rem;
+$font-sizes: (
+	// alt+z 换算rem （使用px to rem插件前需要设置插件的换算值）
+	xxs: 0.6154,
+	// 8px
+	xs: 0.7692,
+	// 10px
+	sm: 0.9231,
+	// 12px
+	md: 1,
+	// 13px
+	lg: 1.0769,
+	// 14px
+	xl: 1.2308 // 16px
+);
+
+$flex-jc: (
+	"start": flex-start,
+	"end": flex-end,
+	"center": center,
+	"between": space-between,
+	"around": space-around,
+);
+
+$flex-ai: (
+	"start": flex-start,
+	"end": flex-end,
+	"center": center,
+	"stretch": stretch,
+);
+
+// spacing
+// 0-5: 0
+// .mt-1 => margin top .pb-2
+$spacing-types: (
+	m: margin,
+	p: padding,
+);
+$spacing-directions: (
+	t: top,
+	r: right,
+	b: bottom,
+	l: left,
+);
+$spacing-base-size: 1rem;
+$spacing-sizes: (
+	0: 0,
+	1: 0.25,
+	2: 0.5,
+	3: 1,
+	4: 1.5,
+	5: 3,
+);

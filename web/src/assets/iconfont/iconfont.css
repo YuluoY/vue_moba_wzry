@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1641286790053') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fanhui:before {
+  content: "\f0292";
+}
+
+.icon-cc-menu-circle:before {
+  content: "\e672";
+}
+
+.icon-card-hero:before {
+  content: "\e61f";
+}
+
+.icon-sandian:before {
+  content: "\e94e";
+}
+
